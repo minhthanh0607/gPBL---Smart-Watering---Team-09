@@ -49,3 +49,11 @@ Khi Web App gửi yêu cầu `GET` tới địa chỉ IP của Arduino, bo mạc
   "seconds_since_last_run": 45,
   "manual_mode": false
 }
+---
+
+## 👥 Credits & Contributions
+
+This project was developed by **Team 9** with roles defined as follows:
+
+* **Nguyễn Minh Thành (Ken):** Responsible for hardware design, circuit assembly, and embedding the core control logic (sensor data processing, multitasking with `millis()`, and actuator safety controls).
+* **[Điền họ tên bạn mi vô đây]:** Responsible for designing and developing the Frontend Web UI. Additionally, they co-wrote the HTTP Web Server and JSON API handling within the Arduino firmware to ensure seamless integration between the hardware and the web application.
