@@ -49,6 +49,18 @@ Khi Web App gửi yêu cầu `GET` tới địa chỉ IP của Arduino, bo mạc
   "manual_mode": false
 }
 ```
+
+---
+## 📂 Repository Structure
+
+```text
+├── firmware/
+│   └── team9_arduino.ino      # Arduino source code (Hardware logic & JSON API)
+└── android-app/               # Android Studio project (Mobile App UI)
+    ├── app/                   # Main application source code and layouts
+    ├── build.gradle.kts       # Project configuration
+    └── settings.gradle.kts    # Project settings
+```
 ---
 ## 👥 Credits & Contributions
 
